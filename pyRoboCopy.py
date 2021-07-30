@@ -40,8 +40,7 @@ def runRobocopy(args):
 
 if __name__ == '__main__':
     sDict = {}
-    cfgFile = 'F:\\Projects\\PyProjects\\pyrobocopy_cfg.yaml'
-##    cfgFile = 'pyrobocopy_cfg.yaml'
+    cfgFile = '.\\cpycfg.yaml'
     with open(cfgFile) as fin:
         tasks = load(fin.read())
 
